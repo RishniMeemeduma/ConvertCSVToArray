@@ -2,12 +2,12 @@
 .csv_file_container {
     min-height:100vh; 
     /* margin:4%; */
-    background-color: #0D0D0D;
+    background-color: #242326;
     padding: 5%;
 }
 .title h1 {
     font-size: 3.5rem;
-    color: #584209;
+    color: #3B8C57;
     font-family: fangsong;
 
 }
@@ -21,15 +21,15 @@
 .upload_file {
     padding-left: 2rem;
     padding: 3%;
-    background-color: #8C6A03;
+    background-color: #46A667;
     color: white;
 }
 .details_card {
     background-color: white;
 }
 .sub_title {
-    color: #584209 ;
+    color: #3B8C57 ;
 }
 .house_owner_container {
-    background-color: #D9D3B4 !important;
+    background-color: #A6A6A6 !important;
 }
