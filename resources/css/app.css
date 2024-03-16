@@ -1,1 +1,32 @@
 @import 'bootstrap/dist/css/bootstrap.css';
+.csv_file_container {
+    min-height:100vh; 
+    /* margin:4%; */
+    background-color: #0D0D0D;
+    padding: 5%;
+}
+.title h1 {
+    font-size: 3.5rem;
+    color: #584209;
+    font-family: fangsong;
+
+}
+
+.container {
+    min-height: 100vh;
+    background-color: white;
+    padding: 2%;
+}
+
+.upload_file {
+    padding-left: 2rem;
+    padding: 3%;
+    background-color: #8C6A03;
+    color: white;
+}
+.details_card {
+    background-color: #D9D3B4 !important;
+}
+.sub_title {
+    color: #584209 ;
+}
