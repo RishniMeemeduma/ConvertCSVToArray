@@ -27,10 +27,15 @@
         },
         // send an api request to get the CSV data array
         getDataArray() {
-            let formData = new formData();
+            const formData = new FormData();
             formData.append('file', this.file);
 
-            this.axios.post('api/upload-csv', formData).then((data) => {
+            this.axios.post('api/upload-csv', formData, {
+                headers: {
+                'Content-Type': 'multipart/form-data'
+                }
+            })
+            .then((data) => {
 
             });
         }
