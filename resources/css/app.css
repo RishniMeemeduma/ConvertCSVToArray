@@ -25,8 +25,11 @@
     color: white;
 }
 .details_card {
-    background-color: #D9D3B4 !important;
+    background-color: white;
 }
 .sub_title {
     color: #584209 ;
+}
+.house_owner_container {
+    background-color: #D9D3B4 !important;
 }
